@@ -14,7 +14,7 @@ section {
 
 .card__img img {
   height: 350px;
-  width: 550px;
+  width: 100%;
   border-radius: 20px;
   object-fit: cover;
 }
