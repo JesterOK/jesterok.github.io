@@ -1,0 +1,238 @@
+header {
+  background-color: #EEEFF1;
+}
+
+.header_main {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1110px;
+}
+
+nav {
+  margin-bottom: 162px;
+  padding-top: 79px;
+}
+
+.menu {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.menu li {
+  text-transform: uppercase;
+  display: inline;
+  margin-right: 42px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu .active a {
+  color: #34547A;
+}
+
+.intro h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3em;
+  line-height: 79px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.intro p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+  width: 540px;
+  color: #727272;
+  margin-bottom: 65px;
+}
+
+.intro .button {
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #34547A; 
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 23px 51px;
+  margin-bottom: 141px;
+}
+
+.about h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 112px;
+  margin-bottom: 50px;
+}
+
+.about p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+  color: #727272;
+  width: 540px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+}
+
+.projects {
+  background-color: #34547A;
+  padding: 100px 0;
+}
+
+.projects .projects_block {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1110px;
+}
+
+.projects .projects_card {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.projects .projects_card_last {
+  display: inline-block;
+}
+
+.projects .projects_card .projects_text {
+  display: inline-block;
+}
+
+.projects .projects_card_last .projects_text {
+  display: inline-block;
+}
+
+.projects .projects_card img {
+  margin-right: 20px;
+}
+
+.projects .projects_card_last img {
+  margin-right: 20px;
+}
+
+.projects .projects_card h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3em;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 0 0 5px 0;
+}
+
+.projects .projects_card_last h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3em;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 0 0 5px 0;
+}
+
+.projects .projects_card p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.projects .projects_card_last p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.work h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.work p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  width: 540px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 57px;
+}
+
+iframe {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 100px;
+}
+
+footer {
+  background-color: #34547A;
+  padding: 50px 0;
+}
+
+.creator {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1110px;
+}
+
+.creator h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3em;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.creator p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 21px;
+  color: #FFFFFF;
+}
