@@ -23,7 +23,7 @@ nav {
   text-transform: uppercase;
   display: inline;
   margin-right: 42px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1em;
@@ -40,7 +40,7 @@ nav {
 }
 
 .intro h1 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 3em;
@@ -50,7 +50,7 @@ nav {
 }
 
 .intro p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -62,7 +62,7 @@ nav {
 
 .intro .button {
   display: inline-block;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
@@ -72,21 +72,23 @@ nav {
   font-size: 1em;
   padding: 23px 51px;
   margin-bottom: 141px;
+  vertical-align: top;
 }
 
 .about h2 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2em;
   line-height: 38px;
   text-align: center;
-  margin-top: 112px;
+  /* margin-top: 112px; */
   margin-bottom: 50px;
+  padding-top: 112px;
 }
 
 .about p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -96,7 +98,8 @@ nav {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+  padding-bottom: 100px;
 }
 
 .projects {
@@ -113,18 +116,22 @@ nav {
 .projects .projects_card {
   display: inline-block;
   margin-right: 45px;
+  vertical-align: top;
 }
 
 .projects .projects_card_last {
   display: inline-block;
+  vertical-align: top;
 }
 
 .projects .projects_card .projects_text {
   display: inline-block;
+  vertical-align: top;
 }
 
 .projects .projects_card_last .projects_text {
   display: inline-block;
+  vertical-align: top;
 }
 
 .projects .projects_card img {
@@ -136,7 +143,7 @@ nav {
 }
 
 .projects .projects_card h3 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.3em;
@@ -146,7 +153,7 @@ nav {
 }
 
 .projects .projects_card_last h3 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.3em;
@@ -156,7 +163,7 @@ nav {
 }
 
 .projects .projects_card p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -166,7 +173,7 @@ nav {
 }
 
 .projects .projects_card_last p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -176,7 +183,7 @@ nav {
 }
 
 .work h2 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2em;
@@ -187,7 +194,7 @@ nav {
 }
 
 .work p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -220,7 +227,7 @@ footer {
 }
 
 .creator h3 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.3em;
@@ -229,7 +236,7 @@ footer {
 }
 
 .creator p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 0.8em;
