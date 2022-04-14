@@ -9,7 +9,6 @@
 
 .popup_body {
   width: 406px;
-  height: 301px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -36,7 +35,6 @@
 
 .notification {
   width: 342px;
-  height: 40px;
   border-radius: 4px;
   padding: 10px;
   margin-left: 32px;
