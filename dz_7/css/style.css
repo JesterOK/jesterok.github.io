@@ -1,0 +1,137 @@
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+}
+
+.popup_body {
+  width: 406px;
+  height: 301px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.title h2 {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 32px;
+  color: #3E3E3E;
+  margin: 32px 32px 16px 32px;
+  width: 286px;
+}
+
+.title img {
+  margin-top: 44px;
+}
+
+.notification {
+  width: 342px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 32px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+.notification::before {
+  position: relative;
+  top: 2px;
+  padding-right: 8px;
+}
+
+.notification_info {
+  background: #D4D7DE;
+}
+
+.notification_info::before {
+  content: url(../img/info.png);
+}
+
+.notification_check {
+  background: #E9F8EB;
+}
+
+.notification_check::before {
+  content: url(../img/check.png);
+}
+
+.notification_warning {
+  background: #FFF8E0;
+}
+
+.notification_warning::before {
+  content: url(../img/warning.png);
+}
+
+.notification_alert {
+  background: #FDEAE4;
+}
+
+.notification_alert::before {
+  content: url(../img/alert.png);
+}
+
+.notification_text {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.87em;
+  line-height: 20px;
+  color: #3E3E3E;
+  margin: 0;
+}
+
+.popup_content p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.87em;
+  line-height: 22px;
+  color: #3E3E3E;
+  padding: 0 32px 32px 32px;
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.87em;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  vertical-align: top;
+  border-radius: 4px;
+}
+
+.button_blue {
+  background: #3E56AA; 
+  color: #fff;
+  margin: 0 12px 32px 32px;
+}
+
+.button_grey {
+  background: #F0F1F3;
+  color: #2C2D2E;
+  margin: 0 81px 0 0;
+}
+
+.button_white {
+  background: #fff;
+  color: #3E56AA;
+  margin: 0;
+}
