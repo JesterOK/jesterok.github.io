@@ -1,0 +1,112 @@
+.container {
+  display: table;
+  clear: both;
+  width: 1110px;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px #000 solid;
+}
+
+.container:last-child {
+  margin-bottom: 0;
+}
+
+.block {
+  padding: 50px;
+  border: 1px #ff0000 solid;
+}
+
+.container_one .block_one {
+  float: left;
+}
+
+.container_one .block_two {
+  float: right;
+}
+
+.container_two .block_one {
+  float: left;
+}
+
+.container_two .block_two {
+  float: right;
+}
+
+.container_two .block_three {
+  float: right;
+  margin-right: 10px;
+}
+
+.container_two .block_four {
+  float: right;
+  margin-right: 10px;
+}
+
+.container_two .block_five {
+  float: right;
+  margin-right: 10px;
+}
+
+.container_three .block_one {
+  float: left;
+  margin-right: 10px;
+}
+
+.container_three .block_two {
+  float: left;
+}
+
+.container_three .block_three {
+  float: right;
+}
+
+.container_three .block_four {
+  float: right;
+  margin-right: 10px;
+}
+
+.hidden {
+  display: table;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  width: 414px;
+}
+
+.container_four .hidden .block_one {
+  float: left;
+  padding: 100px;
+  margin-right: 10px;
+}
+
+.container_four .hidden .block_two {
+  float: left;
+  padding: 40px 100px;
+  margin-bottom: 10px;
+}
+
+.container_four .hidden .block_three {
+  float: left;
+  padding: 40px 100px;
+}
+
+.container_five .hidden {
+  float: right;
+}
+
+.container_five .hidden .block_one {
+  float: left;
+  padding: 100px;
+  margin-right: 10px;
+}
+
+.container_five .hidden .block_two {
+  float: left;
+  padding: 47px 100px;
+  margin-bottom: 10px;
+}
+
+.container_five .hidden .block_three {
+  float: left;
+  padding: 47px 100px;
+}
