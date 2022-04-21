@@ -1,0 +1,93 @@
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  list-style: none;
+  background: #333333;
+}
+
+.menu_item {
+  position: relative;
+  text-transform: uppercase;
+}
+
+.menu_item a {
+  display: inline-block;
+  padding: 20px 30px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.menu_item a:hover {
+  background: #199bfe;
+}
+
+.menu_item--with-submenu > a::after {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  content: "+";
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  text-transform: none;
+}
+
+.submenu--first-lvl {
+  top: 100%;
+  left: 0;
+  padding: 6px 0 0 0;
+}
+
+.menu_item:hover > .submenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu-item,
+.submenu_item--second-lvl {
+  position: relative;
+  width: 250px;
+  margin: 0;
+  border: 1px solid #0082e7;
+  border-bottom: none;
+  background: #199bfe;
+}
+
+.submenu-item:last-child,
+.submenu_item--second-lvl:last-child {
+  border-bottom: 1px solid #0082e7;
+}
+
+.submenu-item a {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.submenu-item  a:hover {
+  background: #35a6ff;
+}
+
+.submenu--second-lvl {
+  top: 0;
+  left: 100%;
+  padding: 0;
+}
+
+.submenu-item:hover > .submenu--second-lvl {
+  display: flex;
+  flex-direction: column;
+}
+
+nav hr {
+  margin: 0;
+  border: 3px solid #199bfe;
+}
