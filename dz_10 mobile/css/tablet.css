@@ -1,0 +1,171 @@
+@media screen and (max-width: 1165px) {
+  .header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .menu {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  html {
+    font-size: 13px;
+  }
+
+	.h1 {
+		font-size: 3.8rem;
+	}
+
+  header {
+    margin-bottom: 37px;
+  }
+
+  .menu {
+    font-size: 1.2rem;
+  }
+
+  .main-objective {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+		padding: 0 20px;
+    margin: 0 auto 70px auto;
+  }
+
+  .main-objective-img {
+    max-width: 600px;
+  }
+
+  .main-objective-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-objective-demo h1 {
+    margin: 0 0 20px 0;
+  }
+
+  .main-objective-demo p {
+    margin: 0 0 20px 0;
+  }
+
+  .partners {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+  }
+
+  .partners-wrapper {
+    text-align: center;
+  }
+
+  .companies {
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .working-process {
+    margin-bottom: 50px;
+  }
+
+  .working-process-wrapper {
+    gap: 30px;
+    padding-bottom: 50px;
+  }
+
+  .process {
+    order: -1;
+  }
+
+  .what-localize {
+    padding: 60px 0 70px 0;
+  }
+
+  .what-localize-wrapper {
+    gap: 50px;
+  }
+
+  .boost {
+    padding: 70px 20px;
+  }
+
+  .boost-wrapper {
+    gap: 10px;
+  }
+
+  .boost-card {
+    max-width: 236px;
+  }
+
+  .comments {
+    padding: 50px 0px 60px 0px;
+  }
+
+  .comments-wrapper {
+    margin: 0 30px;
+    gap: 30px;
+  }
+
+  .comments-wrapper img {
+    order: -1;
+  }
+
+  .rating {
+    padding: 50px 20px 20px 20px;
+  }
+
+  .rating-wrapper {
+    flex-direction: column;
+  }
+
+  .rating-description {
+    border-bottom: #000000 1px solid;
+  }
+
+  .rating-description img {
+    padding: 20px 30px 15px 0;
+  }
+
+  .rating-description h3 {
+    max-width: 400px;
+		padding: 47px 75px 31px 0;
+  }
+
+  .rating-widget {
+    gap: 200px;
+    border-left: none;
+  }
+
+  .integrate {
+    padding: 75px 0px 50px 0px;
+  }
+
+  .integrate-wrapper {
+    margin: 0 30px;
+  }
+
+  .try-it-free {
+    padding: 75px 0px 70px 0px;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 50px 20px 60px 20px;
+    gap: 40px;
+  }
+
+  .footer-menu {
+    justify-content: space-between;
+    padding-top: 30px;
+    gap: 20px;
+    border-top: #000000 1px solid;
+  }
+
+  .footer-menu-item {
+    width: 150px;
+  }
+}
